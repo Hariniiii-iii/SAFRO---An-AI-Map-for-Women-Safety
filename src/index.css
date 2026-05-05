@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", serif;
+  
+  --color-primary: #CD5E77;
+  --color-luxury-black: #111111;
+  --color-soft-black: #1A1A1A;
+  --color-blush: #CD5E77;
+  --color-blush-light: #E8A3B2;
+  --color-rose: #A9445A;
+  --color-ivory: #F8F6F4;
+  --color-luxury-gray: #B8B8B8;
+  
+  --color-safe: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased bg-luxury-black text-white;
+  }
+}
+
+.glass {
+  @apply bg-luxury-black/80 backdrop-blur-md border border-white/10;
+}
+
+.glass-light {
+  @apply bg-white/10 backdrop-blur-md border border-white/10;
+}
+
+.glass-blush {
+  @apply bg-blush/10 backdrop-blur-md border border-blush/20;
+}
+
+.luxury-card {
+  @apply bg-soft-black border border-white/5 rounded-3xl p-6 shadow-2xl;
+}
+
+.luxury-input {
+  @apply bg-soft-black border border-white/10 rounded-2xl px-4 py-3 text-sm focus:ring-2 focus:ring-blush/30 outline-none transition-all placeholder:text-luxury-gray/50;
+}
+
+.luxury-button-primary {
+  @apply bg-blush text-luxury-black font-bold px-6 py-3 rounded-2xl hover:bg-rose transition-all shadow-lg shadow-blush/10 hover:scale-[1.02] active:scale-[0.98];
+}
+
+.luxury-button-outline {
+  @apply bg-transparent border border-blush text-blush font-bold px-6 py-3 rounded-2xl hover:bg-blush/5 transition-all outline-none;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  @apply z-0;
+}

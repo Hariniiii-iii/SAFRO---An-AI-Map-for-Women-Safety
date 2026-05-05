@@ -1,0 +1,6 @@
+{
+  "name": "SAFRO",
+  "description": "An adaptive explainable safety navigator for women in Tiruchirappalli, Tamil Nadu, providing real-time AI safety intelligence and route recommendations.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": []
+}
