@@ -1,12 +1,8 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your AI Studio app
+Run our app SAFRO 
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/c3d13374-8932-4730-9367-ac6c95778f36
+View our app : [https://ai.studio/apps/c3d13374-8932-4730-9367-ac6c95778f36](https://69f9f60ceeb93faccecfb105--rad-creponne-d290ce.netlify.app/)
 
 ## Run Locally
 
